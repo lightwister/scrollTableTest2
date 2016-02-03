@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate>
 
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 
 @end
-
